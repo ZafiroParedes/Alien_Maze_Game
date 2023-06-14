@@ -5,10 +5,10 @@
 
 using namespace std;
 
-image * robotIcon = image_from_file("robot_lab_12 - Copy.bmp");
-image * alienIcon = image_from_file("Alien.bmp");
-image * shipIcon = image_from_file("ship - Copy.bmp");
-image * homeIcon = image_from_file("robotHome.bmp");
+image * robotIcon = image_from_file("images/robot.bmp");
+image * alienIcon = image_from_file("images/Alien.bmp");
+image * shipIcon = image_from_file("images/ship.bmp");
+image * homeIcon = image_from_file("images/robotHome.bmp");
 
 void makingMaze(int numRows, int numColumns, char maze[][31], int penWidthHalf){
 	set_pen_width(penWidthHalf * 2);
