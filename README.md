@@ -1,5 +1,6 @@
-_In progress..._
 # Alien Maze Game
+_December 2019_
+
 This is a maze game created with C++ libraries. These libraries are used to read an input text file for a maze and then return a visual representation of the maze that changes as the player moves the robot around
 
 The visual graphics were created using virtual studios and given [library.h](library.h) and [library.o](library.o) libraries to produce and modify graphics on windows. 
