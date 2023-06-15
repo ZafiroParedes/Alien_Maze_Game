@@ -5,7 +5,7 @@ This is a maze game created with C++ libraries. These libraries are used to read
 The visual graphics were created using virtual studios and given [library.h](library.h) and [library.o](library.o) libraries to produce and modify graphics on windows. 
 
 ## Features
-The maze could be constructed from a txt file that formats a maze with "~", "#", "+", and "$" characters. The "#" character represents the walls and the "~" represents an open path. The "$" represents the start of the maze, where the player begins, and the "+" represents the end of the maze, where the player needs to reach to win. 
+The maze could be constructed from a txt file that formats a maze with "~ ", "#", "+", and "$" characters. The "#" character represents the walls and the "~" represents an open path. The "$" represents the start of the maze, where the player begins, and the "+" represents the end of the maze, where the player needs to reach to win. 
 
 With bmp images, the players location can be identified with an [robot](images/robot.bmp), the start with a [tiny home](images/robotHome.bmp), the end location with a [ship](images/ship.bmp), and the enemy chasing the player with a [alien](images/alien.bmp).
 
@@ -15,7 +15,7 @@ The program is able to remember the path it is taking, marking the path with a y
 
 The enemy following the robot will move one step as the robot moves one step. It contains a similar algorithm to the automatic mode implemented for the robot except it does not remember its path and therefore has a more random movment pattern.
 
-In the manual, "m" character, setting or the automatic one, when the robot reaches the end the grame will end with a win. If the alien reaches the robot before it has reached the space ship, the game will end in a loss. If player ends the game with the "q" key, the game ends as is. 
+In the manual, "m" character, setting or the automatic one, when the robot reaches the end the game will end with a win. If the alien reaches the robot before it has reached the space ship, the game will end in a loss. If player ends the game with the "q" key, the game ends as is. 
 
 ## Results
 The following images are the visual graphics implemented into the game windows and the screens as the game progresses.
